@@ -1,0 +1,39 @@
+.smile{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(223, 173, 9);
+    border-radius: 50%;
+}
+
+#mouth{
+    position: relative ;
+    top: 35px;
+    left: 30px;
+    height: 15px;
+    width: 40px;
+    background-color: red;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#eye1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: inline-block;
+    height: 20px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+#eye2{
+    position: relative;
+    top: 20px;
+    left: 45px;
+    display: inline-block;
+    height: 20px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
