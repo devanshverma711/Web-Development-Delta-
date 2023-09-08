@@ -1,0 +1,45 @@
+h4{
+    color: red;
+    text-align: right;
+}
+.div1{
+    display: inline-block;
+    height: 430px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+    
+}
+.div2{
+    display: inline-block;
+    height: 430px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+}
+img{
+    height: 200px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 25px;
+    
+    
+}
+span{
+    color: brown;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:375px) {
+    #pets{
+        flex-wrap: wrap;
+    }
+}
